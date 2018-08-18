@@ -38,7 +38,7 @@
    }
 
    .contact-form{
-    margin: 6em 0;
+    margin: 4;
     position: relative; 
    }
    .contact-form h1{
@@ -58,6 +58,7 @@
     color: #888;
     font-size: 16px;
    }
+
 
    .img-write {
        display: block;
@@ -88,13 +89,13 @@ $transition-time: 750ms;
 	display: inline-flex;
 	text-decoration: none;
 	color: #fff;
-	background-color: lighten($button-color, 10%);
+	background-color: lighten(10%);
 	padding-left: 2rem;
 	overflow: hidden;
 	z-index: 1;
 	align-items: center;
-	box-shadow: 0px 3px 4px -4px rgba(0,0,0,0.75);
-	
+    box-shadow: 0px 3px 4px -4px rgba(0,0,0,0.75);
+    	
 	&::before {
 		content: '';
 		position: absolute;
@@ -139,6 +140,10 @@ $transition-time: 750ms;
 		
 	}
 	
+}
+
+.btn-block {
+    margin-top: 46px !important;
 }
 
 @keyframes moveArrow {
